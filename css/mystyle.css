@@ -28,11 +28,20 @@
 	text-align: center;
 	
 }
-.isi{
+.isiKiri{
 	background-color: white;
-	height: 500px;
 	text-align: center;
+}
+.isiKanan{
+	background-color: white;
 }
 .content{
 	margin-top: 250px;
 }
+.textKiri{
+	text-align: left;
+}
+#map {
+        height: 400px;
+        width: 100%;
+       }
