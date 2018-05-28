@@ -1,8 +1,38 @@
 .merah{
 	background-color: red;
-	align-content: center;
-
+}
+.coklat{
+	background-color: brown;
+	height: 70px;
 }
 .hijau{
 	background-color: green;
+}
+.kanan{
+	float: right;
+}
+.menu{	
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 24px;
+	float: right;
+	color: white;
+
+}	
+.menu li{
+	display: inline;
+    
+}
+.footer{
+	color: white;
+	text-align: center;
+	
+}
+.isi{
+	background-color: white;
+	height: 500px;
+	text-align: center;
+}
+.content{
+	margin-top: 250px;
 }
