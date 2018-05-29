@@ -1,8 +1,11 @@
 .merah{
-	background-color: red;
+	background-color: #cf000f;
+}
+.textMerah{
+	color: #cf000f;
 }
 .coklat{
-	background-color: brown;
+	background-color: #660000;
 	height: 70px;
 }
 .hijau{
