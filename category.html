@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="web-fonts-with-css/css/fontawesome-all.css">
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
 	<div class="container-fluid">
@@ -23,13 +24,23 @@
 
 			<div class="col-6 isiKiri">
 				<h3 >Foods</h3>
+				<script type="text/javascript">
+					var app = angular.module('myApp', []);  
+						app.controller('newsController', function($scope, $http){  
+						    $http({method: 'POST', url: 'fpweb21-export.json'}).success(function(data)
+						    {
+						        $scope.kuliner = data; // response data 
+						    });
+
+						 });
+				</script>
 				<div class="row">
 					<div class="col-6">
 						<div class="card cardstyle">
 						  <img class="card-img-top" src="img/gp.jpg" alt="Card image cap">
 						  <div class="card-body">
-						    <h4 class="card-title textMerah">Gudeg Pawon</h4>
-						    <p class="card-text"><!-- Isi disini -->Open Everyday<br></p>
+						    <h4 class="card-title textMerah"></h4>
+						    <p class="card-text judul1"></p>
 						    <a href="detail.htm" class="btn btn-danger">Detail</a>
 						  </div>
 						</div>
@@ -75,7 +86,7 @@
 			      function initMap() {
 			        var uluru = {lat: -7.8057127, lng: 110.3879509};
 			        var map = new google.maps.Map(document.getElementById('map'), {
-			          zoom: 4,
+			          zoom: 15,
 			          center: uluru
 			        });
 			        var marker = new google.maps.Marker({
