@@ -1,11 +1,8 @@
 .merah{
-	background-color: #cf000f;
-}
-.textMerah{
-	color: #cf000f;
+	background-color: red;
 }
 .coklat{
-	background-color: #660000;
+	background-color: brown;
 	height: 70px;
 }
 .hijau{
@@ -92,3 +89,8 @@
         width: 1170px
       }
     }
+
+.category_thumbnail{
+  max-width: 100px;
+  max-height: 200px;
+}
