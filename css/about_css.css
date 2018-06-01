@@ -1,0 +1,86 @@
+* {box-sizing: border-box}
+
+body {font-family: Verdana, sans-serif;}
+
+h1
+{
+  text-align: center;
+  font-weight: 900;
+  color: white;
+}
+
+.white
+{
+  color : white;
+}
+
+h3
+{
+  text-align: center;
+  font-weight: 400;
+  color: red;
+}
+
+h4 
+{
+  text-align: left;
+  font-weight: 400;
+  color: white; 
+}
+
+.box{  
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.box-photo{  
+  background-color: rgba(50,41,41,0.7);
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  margin-left: 25px;
+  margin-top: 15;
+  border-radius: 10px;
+
+
+}
+
+.box-person{  
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  margin-left: 15px;
+}
+
+.box-data{  
+  background-color: rgba(50,41,41,0.7);
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  margin-left: 40px;
+  border-radius: 10px;
+
+}
+
+.about1{
+
+  text-align: center;
+  background: azure;
+  height:250px; 
+  padding-bottom: 15px;
+}
+
+
+.about-inner
+{
+	background-color: rgba(171, 227, 58, 1);
+
+}
