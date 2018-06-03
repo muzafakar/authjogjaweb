@@ -31,13 +31,13 @@
 <body ng-app="myApp">
 		 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg text-white fixed-top" >
-  <h3><i class="fas fa-at"></i></h3>
+ <img src="img/auth.png" class="logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-    <ul class="navbar-nav mr-auto">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" style="margin-left: 700px;">
       <li class="nav-item active">
         <a class="nav-link" href="#/!">Home <span class="sr-only">(current)</span></a>
       </li>
@@ -46,21 +46,21 @@
           Tours
         </a>
         <div class="dropdown-menu " aria-labelledby="navbarDropdown" >
-          <a class="dropdown-item" href="#">Water Fall</a>
-          <a class="dropdown-item" href="#">Temple</a>
-          <a class="dropdown-item" href="#">Beach</a>
-          <a class="dropdown-item" href="#">Hill</a>
-          <a class="dropdown-item" href="#">Pine Forest</a>
+          <a class="dropdown-item" href="#!waterfall">Water Fall</a>
+          <a class="dropdown-item" href="#!temple">Temple</a>
+          <a class="dropdown-item" href="#!beach">Beach</a>
+          <a class="dropdown-item" href="#!hill">Hill</a>
+          <a class="dropdown-item" href="#!pine">Pine Forest</a>
         </div>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Events <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#!event">Events <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">Foods <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#!foods">Foods <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#!about">About Us <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
@@ -93,21 +93,91 @@
 	<ng-view></ng-view>
 	<!-- END ROUTING -->
 
-<script type="text/javascript">
+<!-- Footer -->
+<section class="footer">
+<div class="row" style="border-bottom: 1px solid #2F2F2F; padding-bottom: 20px;">
+	<div class="col-3 martop"  style="margin-left: 50px;">
+		<h3><b>About Jogja</b></h3>
+		<p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
+		<img src="img/trip.png" style="max-width: 100%;height: auto;">
+	</div>
+</div>
+<div class="footer">
+	<div class="row">
+		<div class="col-12 text-center">
+			<p>2018 Authentic Jogja - All Rights Reserved </p>
+		</div>
+</div>
+</section>
+
+<!-- End Footer -->
+<script>
+var app = angular.module("myApp", ["ngRoute"]);
+app.config(function($routeProvider) {
+    $routeProvider
+    .when("/", {
+        templateUrl : "home.htm"
+    })
+    .when("/waterfall", {
+        templateUrl : "waterfall.htm"
+    })
+    .when("/temple", {
+        templateUrl : "temple.htm"
+    })
+    .when("/beach", {
+        templateUrl : "beach.htm"
+    })
+    .when("/hill", {
+        templateUrl : "hill.htm"
+    })
+    .when("/pine", {
+        templateUrl : "pine.htm"
+    })
+    .when("/event", {
+        templateUrl : "event.htm"
+    })
+    .when("/foods", {
+        templateUrl : "foods.htm"
+    })
+    .when("/about", {
+        templateUrl : "about.htm"
+    });
+});
+</script>
+
+<!-- <script type="text/javascript">
 	var app = angular.module("myApp", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
         templateUrl : "home.htm"
     })
-    .when("/london", {
-        templateUrl : "london.htm"
+    .when("/waterfall", {
+        templateUrl : "waterfall.htm"
     })
-    .when("/paris", {
-        templateUrl : "paris.htm"
+    .when("/temple", {
+        templateUrl : "temple.htm"
+    });
+    .when("/beach", {
+        templateUrl : "beach.htm"
+    });
+    .when("/hill", {
+        templateUrl : "hill.htm"
+    });
+    .when("/pine", {
+        templateUrl : "pine.htm"
+    });
+    .when("/event", {
+        templateUrl : "event.htm"
+    });
+    .when("/foods", {
+        templateUrl : "foods.htm"
+    });
+    .when("/about", {
+        templateUrl : "about.htm"
     });
 });
-</script>
+</script> -->
 	
 </div>
 </body>
