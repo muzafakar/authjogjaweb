@@ -1,0 +1,48 @@
+.merah{
+	background-color: black;
+	opacity: 0.6;
+}
+.navbar{
+}
+body{
+	margin: 0px;
+}
+.carousel .carousel-inner{
+	height: 650px;
+}
+.container-fluid{
+	padding: 0;
+	margin: 0;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+a{
+	color: white;
+	font-style: bold;
+}
+.margin-content{
+	margin-right: 100px;
+	margin-left: 100px;
+	padding-left: 25px;
+	margin-top: 50px;
+}
+.resize{
+	height: 300px;
+	width: 300px;
+}
+.margin-foods{
+
+}
+p{
+	text-align: justify-all;
+}
+#todo{
+	width: 100%;
+	height: 500px; 
+	margin-top: 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
