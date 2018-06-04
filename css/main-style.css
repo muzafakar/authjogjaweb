@@ -77,3 +77,113 @@ p{
         height: 400px;
         width: 100%;
        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Untuk halaman about dimulai */
+/* 1. About body - Container */
+.about-body
+{
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.about-container {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  -moz-transition : all 0.3s ease-in-out;
+  -webkit-transition : all 0.3s ease-in-out;
+  padding-bottom: 85px;
+}
+
+@media (min-width: 992px)
+{
+	.about-container
+	{
+		min-height: 520px;
+	}
+}
+
+/*2. Body dari about us*/
+.about-body-data
+{
+	width: 99%;
+	overflow-y: scroll;
+	margin: 0 auto;
+	border-top: 6px solid #111;
+  	-webkit-transition: all 0.6s ease-in-out;
+  	-moz-transition: all 0.6s ease-in-out;
+  	transition: all 0.6s ease-in-out;
+  	border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	-webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	-moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	border-bottom: 15px solid #f4f4f4;
+}
+
+@media (min-width:992px) {
+  .about-body-data {
+    position: absolute;
+    margin-top: 30px;
+    left: 30%;
+    height: 400px;
+    width: 50%;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-body-data {
+    margin-top: 70px;
+  }
+}
+
+/* About and its data */
+/* 1. Photo */
+.about-profile-picture
+{
+	width: 250px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.about-profile-picture img
+{
+	margin-top: 40px;
+	width: 100%;
+	border-radius: 100%;
+	-moz-border-radius : 100%;
+	-webkit-border-radius : 100%;
+	border: 8px solid #ddd;
+	transition: all 0.6s ease-in-out;
+	-moz-transition : all 0.6s ease-in-out;
+	-webkit-transition : all 0.6s ease-in-out;
+	align-items: center;
+	opacity: 1;
+	position: absolute;
+}
+
+
+
+/* CSS untuk halaman about berakhir */
