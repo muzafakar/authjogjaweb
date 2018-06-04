@@ -184,6 +184,55 @@ p{
 	position: absolute;
 }
 
+/* 2. N
+
+
+
+
+/*Next and previous button*/
+.btnNextPrvs
+{
+	align-items: center;
+	position: relative;
+}
+.btnNextPrvs a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 16px;
+}
+
+.btnNextPrvs a:hover
+{
+	background-color: #ddd;
+	color: black;
+}
+
+.btnNextPrvs
+{
+	background-color: #f1f1f1;
+	color: black;
+}
+
+.btnNextPrvs .next {
+    background-color: #f1f1f1;
+    color: white;
+}
+
+.btnNextPrvs .round {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
 
 
 /* CSS untuk halaman about berakhir */
+
+
