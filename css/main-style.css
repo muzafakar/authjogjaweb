@@ -132,7 +132,7 @@ p{
   	-webkit-transition: all 0.6s ease-in-out;
   	-moz-transition: all 0.6s ease-in-out;
   	transition: all 0.6s ease-in-out;
-  	border-radius: 0px;
+  	border-radius: 5px;
   	-moz-border-radius: 0px;
   	-webkit-border-radius: 0px;
   	-webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
@@ -145,7 +145,7 @@ p{
   .about-body-data {
     position: absolute;
     margin-top: 30px;
-    left: 30%;
+    left: 25%;
     height: 400px;
     width: 50%;
     padding: 30px;
@@ -163,7 +163,7 @@ p{
 .about-profile-picture
 {
 	width: 250px;
-	height: 350px;
+	height: 330px;
 	position: relative;
 	overflow: hidden;
 }
@@ -179,12 +179,39 @@ p{
 	transition: all 0.6s ease-in-out;
 	-moz-transition : all 0.6s ease-in-out;
 	-webkit-transition : all 0.6s ease-in-out;
-	align-items: center;
-	opacity: 1;
 	position: absolute;
 }
 
-/* 2. N
+/* 2. data*/
+.dataPeople
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.people h1
+{
+	padding-top: 30px;
+	font-weight: bold;
+  	margin-top: 0;
+  	font-size: 36px;
+  	letter-spacing: -2px;
+  	margin-bottom: 8px;
+  	color: #021533;
+}
+
+.people h2
+{
+	margin-top: 0;
+  	font-size: 18px;
+  	font-weight: bold;
+  	margin-bottom: 20px;
+}
+
+.color1
+{	
+  	color: #08aeac;
+}
 
 
 
@@ -194,11 +221,18 @@ p{
 {
 	align-items: center;
 	position: relative;
+	text-align: center;
 }
 .btnNextPrvs a
 {
-	text-decoration: none;
-	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	padding: 8px 16px;
 }
 
@@ -208,7 +242,7 @@ p{
 	color: black;
 }
 
-.btnNextPrvs
+.btnNextPrvs .previous
 {
 	background-color: #f1f1f1;
 	color: black;
@@ -216,7 +250,7 @@ p{
 
 .btnNextPrvs .next {
     background-color: #f1f1f1;
-    color: white;
+    color: black;
 }
 
 .btnNextPrvs .round {
