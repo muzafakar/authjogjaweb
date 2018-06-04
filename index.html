@@ -88,29 +88,6 @@
 		</div>
 	</div>
 	<!-- Akhir Slider -->
-
-	<!-- ANGULAR ROUTING -->
-	<ng-view></ng-view>
-	<!-- END ROUTING -->
-
-<!-- Footer -->
-<section class="footer">
-<div class="row" style="border-bottom: 1px solid #2F2F2F; padding-bottom: 20px;">
-	<div class="col-3 martop"  style="margin-left: 50px;">
-		<h3><b>About Jogja</b></h3>
-		<p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
-		<img src="img/trip.png" style="max-width: 100%;height: auto;">
-	</div>
-</div>
-<div class="footer">
-	<div class="row">
-		<div class="col-12 text-center">
-			<p>2018 Authentic Jogja - All Rights Reserved </p>
-		</div>
-</div>
-</section>
-
-<!-- End Footer -->
 <!-- angular routing -->
 <script>
 var app = angular.module("myApp", ["ngRoute"]);
@@ -144,11 +121,41 @@ app.config(function($routeProvider) {
     .when("/about", {
         templateUrl : "about.htm"
     });
+ });
+    // controller
+    app.controller("foodsCtrl", function($scope, $http) {
+$http.get('json/kuliner.json')
+       .then(function(result){
+          $scope.datas = result.data.data;                
+        });
 });
 </script>
 <!-- end angular rout -->	
+	<!-- ANGULAR ROUTING -->
+	<ng-view></ng-view>
+	<!-- END ROUTING -->
+
+<!-- Footer -->
+<section class="footer">
+<div class="row" style="border-bottom: 1px solid #2F2F2F; padding-bottom: 20px;">
+	<div class="col-3 martop"  style="margin-left: 50px;">
+		<h3><b>About Jogja</b></h3>
+		<p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
+		<img src="img/trip.png" style="max-width: 100%;height: auto;">
+	</div>
+</div>
+<div class="footer">
+	<div class="row">
+		<div class="col-12 text-center">
+			<p>2018 Authentic Jogja - All Rights Reserved </p>
+		</div>
+</div>
+</section>
+
+<!-- End Footer -->
+
 <!-- script controller htm -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 var app = angular.module("myApp", []);
 app.controller("foodsCtrl", function($scope, $http) {
 $http.get('json/kuliner.json')
@@ -156,7 +163,7 @@ $http.get('json/kuliner.json')
           $scope.datas = result.data.data;                
         });
 });
-</script>
+</script> -->
 </div>
 </body>
 </html>

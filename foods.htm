@@ -1,11 +1,31 @@
-<link rel="stylesheet" type="text/css" href="css/main-style.css">
-<section class="margin-food" ng-repeat="x in datas" >
-<div class="row">
-	<div class="col-6">
-		<p>ufdsaifasdf</p>
+
+<section ng-repeat="x in datas">
+	<section class="margin-content" ng-if ="$even" >
+<div class="row" >
+	<div class="col-6" >
+		<p>{{x.deskripsi_ID}}</p>
 	</div>
+	<div class="col-6 gambar-isi">
+		<img src="img/gudeg1.jpg" class="img-thumbnail" style="height: 350px;">
+	</div>
+	
+	</div>
+</section>
+<!-- even -->
+<!-- odd -->
+<section style="background-color: lightgrey;">
+<section class="margin-content" ng-if ="$odd">
+<div class="row" >
 	<div class="col-6 margin-food">
-		<img src="img/gudeg1.jpg">
+		<img class="gambar" src="img/gudeg1.jpg" style="height: 350px;">
 	</div>
+	<div class="col-6" >
+		<p>{{x.deskripsi_ID}}</p>
+	</div>
+	
 </div>
 </section>
+</section>
+<!-- odd -->
+</section>
+
