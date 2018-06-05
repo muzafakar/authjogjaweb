@@ -12,7 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/main-style.css">
-   <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
+  <link rel="stylesheet" href="css/style_detail.css">
+  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
    <link rel="stylesheet" type="text/css" href="css/ihover.min.css">
    <!-- Angular -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -125,7 +127,7 @@ app.config(function($routeProvider) {
         templateUrl : "about.htm"
     });
  });
-    // controller dengan json online api.myjson.com
+    // controller
     app.controller("foodsCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/o61aq')
        .then(function(result){
@@ -159,8 +161,29 @@ $http.get('https://api.myjson.com/bins/ucxzm')
 		<p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
 		<img src="img/trip.png" style="max-width: 100%;height: auto;">
 	</div>
+
+<div class="col-3 martop" style="margin-left: 750px">
+  <h3><b>Our Office</b></h3>
+          <div id="mapdetail"></div>
+          <script>
+            function initMap() {
+              var uluru = {lat: -7.753830, lng: 110.397694};
+              var map = new google.maps.Map(document.getElementById('mapdetail'), {
+                zoom: 15,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYTyY2QP4RTUvQpOkBso9Qs8wX3d1Swkg&callback=initMap">
+          </script>
 </div>
-<div class="footer">
+
+<div class="footerauth">
 	<div class="row">
 		<div class="col-12 text-center">
 			<p>2018 Authentic Jogja - All Rights Reserved </p>
