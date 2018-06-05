@@ -104,7 +104,8 @@ app.config(function($routeProvider) {
         templateUrl : "temple.htm"
     })
     .when("/beach", {
-        templateUrl : "beach.htm"
+        templateUrl : "beach.htm",
+        controller  : "beachCtrl"
     })
     .when("/hill", {
         templateUrl : "hill.htm"
@@ -128,6 +129,12 @@ app.config(function($routeProvider) {
 $http.get('json/kuliner.json')
        .then(function(result){
           $scope.datas = result.data.data;                
+        });
+});
+    app.controller("beachCtrl", function($scope, $http) {
+$http.get('json/beach.json')
+       .then(function(result){
+          $scope.pantai = result.data.beach;                
         });
 });
 </script>
