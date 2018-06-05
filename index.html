@@ -91,6 +91,7 @@
 		</div>
 	</div>
 	<!-- Akhir Slider -->
+
 <!-- angular routing -->
 <script>
 var app = angular.module("myApp", ["ngRoute"]);
@@ -100,20 +101,24 @@ app.config(function($routeProvider) {
         templateUrl : "home.htm"
     })
     .when("/waterfall", {
-        templateUrl : "waterfall.htm"
+        templateUrl : "waterfall.htm",
+        controller  : "waterfallCtrl"
     })
     .when("/temple", {
-        templateUrl : "temple.htm"
+        templateUrl : "temple.htm",
+        controller  : "templeCtrl"
     })
     .when("/beach", {
         templateUrl : "beach.htm",
         controller  : "beachCtrl"
     })
     .when("/hill", {
-        templateUrl : "hill.htm"
+        templateUrl : "hill.htm",
+        controller  : "hillCtrl"
     })
     .when("/pine", {
-        templateUrl : "pine.htm"
+        templateUrl : "pine.htm",
+        controller  : "pineCtrl"
     })
     .when("/event", {
         templateUrl : "event.htm",
@@ -127,25 +132,53 @@ app.config(function($routeProvider) {
         templateUrl : "about.htm"
     });
  });
-    // controller
+    // controller foods 
     app.controller("foodsCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/o61aq')
        .then(function(result){
           $scope.datas = result.data.data;                
         });
 });
+    //controller beach
     app.controller("beachCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/1d68pe')
        .then(function(result){
           $scope.pantai = result.data.beach;                
         });
 });
+    // controller event
       app.controller("eventCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/ucxzm')
        .then(function(result){
           $scope.acara = result.data.event;                
         });
 });
+          // controller event
+      app.controller("pineCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/11rdt6')
+       .then(function(result){
+          $scope.pines = result.data.pine;                
+        });
+});
+          // controller temples
+      app.controller("templeCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.temples = result.data.candi;                
+        });
+});
+          app.controller("hillCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.hills = result.data.hill;                
+        });
+});
+              app.controller("waterfallCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.waterfalls = result.data.waterfall;                
+        });
+     });
 
 </script>
 <!-- end angular rout -->	
@@ -162,19 +195,20 @@ $http.get('https://api.myjson.com/bins/ucxzm')
 		<img src="img/trip.png" style="max-width: 100%;height: auto;">
 	</div>
 
-<div class="col-3 martop" style="margin-left: 750px">
+<div class="col-3 martop" style="float: right;">
   <h3><b>Our Office</b></h3>
           <div id="mapdetail"></div>
           <script>
             function initMap() {
               var uluru = {lat: -7.753830, lng: 110.397694};
               var map = new google.maps.Map(document.getElementById('mapdetail'), {
-                zoom: 15,
+                zoom: 17,
                 center: uluru
               });
               var marker = new google.maps.Marker({
                 position: uluru,
                 map: map
+    
               });
             }
           </script>

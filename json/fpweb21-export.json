@@ -1,150 +1,149 @@
 {
-  "beach" : {
-    "Indrayanti" : {
+  "beach" : [ {
       "address" : "Kabupaten Gunung Kidul, Yogyakarta",
       "descEN" : "Indrayanti beach is one of the most famous beach row in mountain of kidul. Because this beach has access roads that are easy to reach and suitable as a tourist spot for all ages. This beach is located in the village sidoharjo tepus gunugkidul yogyakarta. This beach has white sand and has a long coastline.",
       "descID" : "Pantai indrayanti merupakan salah satu deretan pantai di gunung kidul yang paling terkenal. Karena pantai ini mempunyai akses jalan yang mudah di jangkau dan cocok sebagai tempat wisata untuk semua kalangan umur. pantai ini terletak di desa sidoharjo tepus gunugkidul yogyakarta. Pantai ini mempunyai pasir berwarna putih dan mempunyai garis pantai yang panjang.",
       "name" : "Indrayanti",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/pantai-indrayanti-gunung-kidul-yogyakarta.jpg"
     },
-    "Sadranan" : {
+   {
       "address" : "Sidoharjo Tepus, Sidoharjo, Tepus, Kabupaten Gunung Kidul",
       "descEN" : "The beach is hidden in a cluster of limestone mountains of Gunung Kidul offering beautiful scenery. You do not have to be afraid of the current wave because here the water surface is very calm so it is suitable for tourism choice with children whether it's younger or ponakan.",
       "descID" : "Pantai yang tersembunyi di gugusan pegunungan kapur Gunung Kidul menawarkan pemandangan yang lur biasa indah. Kamu tak usah takut terbawa arus ombak karena disini permukaan airnya sangat tenang sekali sehingga sangat cocok untuk pilihan wisata bersama anak anak entah itu adik atau ponakan.",
       "name" : "Sadranan",
       "thumbUrl" : "https://www.pikniek.com/wp-content/uploads/2017/10/000003-01_tempat-wisata-di-jogja-pantai_sadranan_800x450min_ccpdm.jpg"
     },
-    "Sepanjang" : {
+    {
       "address" : "Gunungkidul",
       "descEN" : "This panjang beach is located in the village kemajang tanjungsari district. This beach is synonymous with wide white sand and combined with the beauty of the coral reefs towering rather high. other than that pamandangan will look perfect with the presence of local fisherman prahu noted neatly.",
       "descID" : "Pantai sepanjang ini berlokasi di desa kemajang kecamatan tanjungsari. Pantai ini identik dengan pasir putih yang luas dan berpadu dengan indahnya gunukan karang yang menjulang agak tinggi. selain itu pamandangan akan terlihat sempurna dengan adanya prahu nelayan penduduk lokal yang tertatat rapi.",
       "name" : "Sepanjang",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/pantai-sepanjang-gunung-kidul-yogyakarta.jpg"
     },
-    "Siung" : {
+   {
       "address" : "Gunungkidul",
       "descEN" : "This siung beach is located in the village of Purwodadi tepus subdistrict, this beach is still classified as a beach that is rarely visited by tourists. The beach has a characteristic soft white sand and presents a typical rocky coral mountain scenery that combined with the swift waves, making this beach look perfect for your visit.",
       "descID" : "Pantai siung ini berlokasi di desa purwodadi kecamatan tepus, Pantai ini masih tergolong pantai yang jarang dikunjungi oleh wisatawan. Pantai tersebut mempunyai ciri khas pasir putih yang lembut dan menyuguhkan pemandangan batu karang khas gunung kidul yangberpadu dengan derasnya ombak, membuat pantai ini terlihat sempurna untuk anda kunjungi.",
       "name" : "Siung",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/pantai-siung-gunung-kidul-yogyakarta.jpg"
     },
-    "Sundak" : {
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "Beach sundak located in the village sidoharjo tepus and its location adjacent to indrayanti beach is suitable in the visit for those of you who do not like the crowd. This beach is still relatively quiet unlike in indrayanti beach that is often crowded in tourists visit.",
       "descID" : "Pantai sundak yang berlokasi di desa sidoharjo tepus dan letaknya berdekatan dengan pantai indrayanti ini cocok di kunjungi bagi anda yang tidak suka dengan keramaian. Pantai ini masih tergolong sepi tidak seperti di pantai indrayanti yang kerap sekali ramai di kunjungi wisatawan.",
       "name" : "Sundak",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/Pantai-sundak-gunung-kidul-yogyakarta.jpg"
     }
-  },
-  "candi" : {
-    "Candi Ijo" : {
+  ],
+  "candi" : [
+     {
       "address" : "Kikis, Sambirejo, Prambanan, Sleman Regency, Special Region of Yogyakarta 55572",
       "descEN" : "Ijo Temple is a Hindu temple enshrining area. This temple is located four kilometers southeast of Candi Ratu Boko or us-about 18 kilometers east of Yogyakarta. It is called Ijo Temple because it is built on a hill known to Bukit Hijau or Gumuk Ijo around the 9th century.",
       "descID" : "Candi Ijo adalah sebuah kawasan percandian bercorak Hindu. Candi ini berada empat kilometer arah tenggara dari Candi Ratu Boko atau kita-kira 18 kilometer di sebelah timur Yogyakarta. Disebut Candi Ijo karena dibangun di sebuah bukit yang dikenal Bukit Hijau atau Gumuk Ijo sekitar abad ke-9.",
       "name" : "Candi Ijo",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/candi-ijo-jogjalungo-055bd306859b39702e07d6d5713949ad.jpg"
     },
-    "Candi Kalasan" : {
+     {
       "address" : "Jl. Raya Yogya - Solo, Suryatmajan, Danurejan, Daerah Istimewa Yogyakarta",
       "descEN" : "Kalasan temple is located in Kalibening Village, Tirtamani, Sleman Regency. This Buddhist temple has a layer of temple cover called Bajralepa. Bajralepa is a kind of plaster in fine stone carvings. Detailed decoration Bajralepa is one of the characteristics Kalasan Temple, which is also found in Sari Temple.",
       "descID" : "Candi Kalasan terletak di Desa Kalibening, Tirtamani, Kabupaten Sleman. Candi umat Buddha ini memiliki lapisan penutup candi yang dinamakan Bajralepa. Bajralepa merupakan semacam plesteran di ukiran batu halus. Detil hiasan Bajralepa ini merupakan salah satu ciri Candi Kalasan, yang juga dijumpai pada Candi Sari.",
       "name" : "Candi Kalasan",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/candi-kalasan-wisatajogjamurah-50fc036a99aee7513e8197e419bf24b9.jpg"
     },
-    "Candi Sambisari" : {
+     {
       "address" : "Jalan Candi Sambisari, Purwomartani, Kalasan, Purwomartani, Kalasan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571",
       "descEN" : "Its name is similar to Sari temple, but Sambisari temple is a Hindu temple. This temple is located in Purwomartani, Kalasan, Sleman. You can see the relics of the ancient Mataram Kingdom of 50 × 48 meters.",
       "descID" : "Namanya memang mirip dengan candi Sari, namun candi Sambisari merupakan candi Hindu. Candi ini berada di Purwomartani, Kalasan, Sleman. Kamu bisa melihat peninggalan Kerajaan Mataram Kuno seluas 50 × 48 meter. ",
       "name" : "Candi Sambisari",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/sambisari-panorama-29-december-2013-50dc587ea8c1f95c1a5382403e287d46.jpg"
     },
-    "Prambanan" : {
+    {
       "address" : "Kranggan, Bokoharjo, Prambanan, Sleman Regency, Special Region of Yogyakarta",
       "descEN" : "Prambanan temple includes UNESCO World Heritage Site, the largest Hindu temple in Indonesia, as well as one of the most beautiful temples in Southeast Asia. You are charged an entrance fee of Rp 40 thousand for adults and Rp 20 thousand for children. There are some interesting facilities such as rabbit trains, playgrounds, and many others.",
       "descID" : "Candi Prambanan termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara. Kamu dikenakan biaya masuk sebesar Rp 40 ribu untuk dewasa dan Rp 20 ribu untuk anak-anak. Terdapat beberapa fasilitas menarik seperti kereta kelinci, taman bermain, dan banyak lainnya.",
       "name" : "Prambanan",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/candi-prambanan-dc236b7c1cf2eab26dd2d5e9dbc2e49d.jpg"
     },
-    "Ratu Boko" : {
+    {
       "address" : "Gatak, Bokoharjo, Prambanan, Sleman Regency, Special Region of Yogyakarta",
       "descEN" : "History believes that Ratu Boko temple is a former king palace building. The palace of 250 thousand square meters consists of the main gate, burning temple, field, pond, pendopo, paseban, until the cave. This temple is also increasingly crowded since the movie Ada Apa Dengan Cinta 2. This temple looks very beautiful when the sun began to set.",
       "descID" : "Sejarah meyakini bahwa Candi Ratu Boko merupakan bekas bangunan istana raja. Istana seluas 250 ribu meter persegi ini terdiri dari gapura utama, candi pembakaran, lapangan, kolam, pendopo, paseban, hingga goa. Candi ini juga semakin ramai sejak film Ada Apa Dengan Cinta 2. Candi ini terlihat sangat cantik ketika matahari mulai terbenam.",
       "name" : "Ratu Boko",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/sunset-ratu-boko-1024x585-e1461901996151-39e451e56fae589ffc41a78d0ab4ecf9.jpg"
     }
-  },
-  "hill" : {
-    "Bukit Mojo Gumelem" : {
+  ],
+  "hill" : [
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "This Mojo Gumelem Hill has many instagenic photo spots that must be tried. Not only that, this hill is also a romantic place to watch the sunset moment with your partner. Therefore, immediately invite your partner here during the long weekend later.",
       "descID" : "Bukit Mojo Gumelem ini punya banyak spot foto instagenic yang wajib dicoba. Tak hanya itu, bukit ini juga jadi tempat yang romantis untuk menyaksikan momen matahari terbenam bersama pasangan. Karena itu, segera ajak pasanganmu ke sini saat long weekend nanti. ",
       "name" : "Bukit Mojo Gumelem",
       "thumbUrl" : "https://3.bp.blogspot.com/-MATts1qN2Oo/WRUTYK6zEvI/AAAAAAAABVQ/oNQC6deOWP8kjMQa1iq_WQngumIYkhoTACEw/s1600/Untitled-1.jpg%2Blkjk.jpg"
     },
-    "Bukit Panguk Kediwung" : {
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "Bukit Panguk Kediwung is a new tourist destination in Jogja. From here you can enjoy the panorama of Dlingo and Imogiri which is green and fresh in the eyes. Especially when the cloud began to come, the scenery became more and more epic.",
       "descID" : "Bukit Panguk Kediwung ini destinasi wisata yang tergolong baru di Jogja. Dari sini Kamu bisa menikmati panorama Dlingo dan Imogiri yang hijau dan segar di pandang mata. Apalagi saat hamparan awan mulai datang, pemandangannya jadi makin epik.",
       "name" : "Bukit Panguk Kediwung",
       "thumbUrl" : "https://phinemo.com/wp-content/uploads/2017/10/bukit-panguk-kediwung.jpg"
     },
-    "Puncak Beici" : {
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "At this Becici Peak you can feel the fresh air of the hills among the pine forests. And as far as the eye can see, you will see the green of Jogja. There are also photogenic spots such as tree houses, homes Marsupilami, and homes mushrooms that make tourism in Yogyakarta is increasingly hits.",
       "descID" : "Di Puncak Becici ini Kamu bisa merasakan segarnya udara perbukitan di antara hutan pinus. Dan sejauh mata memandang, Kamu akan melihat hijaunya alam Jogja. Ada juga spot-spot fotogenik seperti rumah pohon, rumah Marsupilami, dan rumah jamur yang bikin wisata di Jogja ini semakin hits.",
       "name" : "Puncak Beici",
       "thumbUrl" : "https://wiratourjogja.com/wp-content/uploads/2017/09/puncak-Becici-1.jpg"
     },
-    "Tebing Watu Mabur" : {
+     {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "Location of cliffs Watu Mabur is not far from the Forest Pus Mangunan. If usually in the tourist destination of the hills you can only photograph in the view post, here You can also camping cheerfully with friends or your partner. Beautiful panorama and cool air temperature will make you feel at home long camping in this Watu Mabur Cliff.",
       "descID" : "Lokasi tebing Watu Mabur ini tak jauh dari Hutan Pinus Mangunan. Kalau biasanya di destinasi wisata perbukitan Kamu cuma bisa foto di gardu pandang, di sini Kamu bisa juga camping ceria sama teman atau pasanganmu. Panoramanya yang indah dan suhu udara yang sejuk akan membuat Kamu betah lama-lama camping di Tebing Watu Mabur ini.",
       "name" : "Tebing Watu Mabur",
       "thumbUrl" : "https://1.bp.blogspot.com/-k4yldtogAts/WO78LUFRL9I/AAAAAAAAGkY/F_gApxmIpeQQX1t8uGhW2MT7_t2F6l4VACLcB/s640/Tebing-Watu-Mabur.jpg"
     },
-    " Bukit Cendana" : {
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "Above the Bukit Cendana viewing post built under this shady tree, you can sit back and relax your mind. While looking at the green trees from far and fresh water Sermo Reservoir, guaranteed you will be more calm and peaceful. Bukit Cendana is also a spot to hunt for favorite photos in Jogja.",
       "descID" : "Di atas gardu pandang Bukit Cendana yang dibangun di bawah pohon rindang ini, Kamu bisa duduk santai sambil menenangkan pikiran. Sambil melihat hijaunya pepohonan dari jauh dan segarnya air Waduk Sermo, dijamin Kamu akan lebih tenang dan damai. Bukit Cendana juga jadi spot untuk berburu foto favorit di kawasan Jogja. ",
       "name" : "Bukit Cendana",
       "thumbUrl" : "https://i2.wp.com/desamerdeka.id/wp-content/uploads/2018/03/Bukit-Cendana.jpg?resize=640%2C300"
     }
-  },
-  "waterfall" : {
-    "Grojogan Sewu" : {
+  ],
+  "waterfall" : [
+    {
       "address" : "Desa Beteng, Jatimulyo, Girimulyo, Kulon Progo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEN" : "The height of Grojogan Sewu Waterfall is approximately 7 meters. The cool atmosphere of the countryside and the coldness of the water make this place is visited by many tourists not only local Yogyakarta but also outside the city and even abroad. Most of the visiting youngsters are hoby adventure along with their friends. In this waterfall is allowed to swim and feel directly cold water Grojogan Sewu.",
       "descID" : "Ketinggian Air Terjun Grojogan Sewu ini kurang lebih 7 meter. Suasana sejuk pedesaan dan dinginnya air menjadikan tempat ini banyak dikunjungi oleh wisatawan tidak hanya lokal Yogyakarta saja melainkan juga luar kota bahkan mancanegara. Kebanyakan yang berkunjung anak anak muda yang hoby adventure bersama dengan temen temennya. Di air terjun ini diperbolehkan berenang dan merasakan langsung dinginnya air Grojogan Sewu.",
       "name" : "Grojogan Sewu",
       "thumbUrl" : "http://3.bp.blogspot.com/-mvDNXVN5TMY/UvzqOBc-wgI/AAAAAAAAALA/fsIyzLiN-Cs/s1600/IMG_5448.JPG"
     },
-    "Kembang Soka" : {
+	{
       "address" : "Dusun Gunungkelir, Desa Jatimulyo, Kecamatan Kulonprogo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEN" : "Koka Soka Waterfall is a waterfall that has unique characteristics and makes it different from other waterfalls in Yogyakarta. The clear water combined with the yellowish waterfall rocks. There are many natural pools along the Kembang Soka river of Yogyakarta, and the natural pond water is Green Tosca. In addition, although the rocks and waterfall base of the river is yellowish, the cliffs that are on the side are maroon.",
       "descID" : "Air terjun Kembang Soka merupakan sebuah air terjun yang mempunyai ciri khas yang unik dan membuatnya berbeda dari air terjun lainnya di Yogyakarta. Airnya yang jernih berpadu dengan batuan air terjunnya berwarna kekuningan. Terdapat banyak kolam alami di sepanjang aliran sungai Kembang Soka Yogyakarta, dan air kolam alaminya berwarna Hijau Tosca. Selain itu walau batuan air terjun dan dasar sungainya berwarna kekuningan, Tebing yang berada disisinya berwarna merah marun.",
       "name" : "Kembang Soka",
       "thumbUrl" : "https://wiratourjogja.com/wp-content/uploads/2018/04/Air-Terjun-Kembang-Soka-Gunungkelir-Girimulyo-Kulonprogo-Yogyakarta-Foto-by-CV-Wira-Tour-Jogjakarta.jpg"
     },
-    "Setawing" : {
+     {
       "address" : "Dusun Jonggrangan, Desa Jatimulyo, Kec. Girimulyo, Kab. Kulon Progo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEN" : "Menoreh Mountains are endless for exploration. And one of them that is worth visiting Dolaners is Setawing Waterfall located in Jatimulyo Village, Kulon Progo Regency, Special Region of Yogyakarta. The beauty of this waterfall will be more fascinating during the rainy season. This is due to this seasonal waterfall occurs during the rainy season alone, while in the dry season waterfall is not a drop of its existence.",
       "descID" : "Pegunungan Menoreh memang tak ada habisnya untuk di eksplorasi. Dan salah satunya yang patut Dolaners kunjungi adalah Air Terjun Setawing yang terletak di Desa Jatimulyo, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta. Keindahan air terjun ini akan semakin mempesona saat musim penghujan. Hal ini disebabkan karena air terjun ini terjadi musiman yakni saat musim penghujan saja, sedangkan pada musim kemarau air terjun ini tak setetespun keberadaannya.",
       "name" : "Setawing",
       "thumbUrl" : "https://awsimages.detik.net.id/content/2015/02/04/1025/img_20150204213901_54d22f056f817.jpg?w=650"
     },
-    "Sri Gethuk" : {
+    {
       "address" : "Jl. Air Terjun Sri Gethuk, Playen, Kab. Gunung Kidul, Daerah Istimewa Yogyakarta – Indonesia",
       "descEn" : "Sri Gethuk Waterfall is a tourist attraction that is maintained by the manager. Here also has prepared a variety of supporting facilities for Dolaners. If Dolaners want to get to the waterfall, must cross a beautiful river of clear green by using ship transportation that has been provided by the manager. Various exciting activities can Dolaners do in Tours Waterfall Sri Gethuk Yogyakarta is, here Dolaners can swim as much in the region.",
       "descID" : "Air Terjun Sri Gethuk merupakan sebuah objek wisata yang sangat dirawat oleh sang pengelola. Di sini juga sudah disiapkan beragam fasilitas penunjang bagi Dolaners. Jika Dolaners ingin sampai ke air terjunnya, harus menyebrangi sebuah sungai indah berwarna hijau jernih dengan menggunakan transportasi kapal yang sudah disediakan pihak pengelola. Beragam kegiatan yang mengasyikan bisa Dolaners lakukan di Wisata Air Terjun Sri Gethuk Yogyakarta ini, di sini Dolaners bisa berenang sepuasnya di kawasan ini.",
       "name" : "Sri Gethuk",
       "thumbUrl" : "http://wisatabaru.com/wp-content/uploads/2017/10/air-terjun-sri-gethuk.jpg"
     },
-    "kedung pedut" : {
+    {
       "address" : "Jatimulyo, Girimulyo, Kulon Progo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEn" : "Kedung Pedut is a tourist attraction that presents a combination of waterfalls and also kedung (pond) with a beautiful turquoise water in Yogyakarta. Not only one kedung, in nature tourism complex in Yogyakarta there are several natural ponds with varying depths ranging from one to four meters. Dolaners can see the beauty of the viewing post on the altitude.",
       "descID" : "Kedung Pedut adalah obyek wisata yang menyajikan perpaduan air terjun dan juga kedung (kolam) dengan air berwarna biru kehijauan nan indah yang ada di Yogyakarta. Tidak hanya satu kedung, di kompleks wisata alam di Yogyakarta ini terdapat beberapa kolam alami dengan kedalaman bervariasi mulai satu hingga empat meter. Dolaners bisa menyaksikan keindahannya dari gardu pandang yang ada di ketinggian.",
       "name" : "kedung pedut",
       "thumbUrl" : "https://i2.wp.com/www.jogja.co/wp-content/uploads/2017/05/air-terjun-kedung-pedut-kulonprogo.jpg?fit=770%2C400"
     }
-  }
+  ]
 }
