@@ -1,9 +1,17 @@
+.parallax {
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 .merah{
 	background-color: black;
 	opacity: 0.8;
 }
-.navbar{
-}
+
 body{
 	margin: 0px;
 	font-family: 'Montserrat', sans-serif;
@@ -13,10 +21,15 @@ body{
 	height: 650px;
 }
 .container-fluid{
-	padding: 0;
-	margin: 0;
+padding: 0px;
+    margin: 0px;
 }
-
+ul.a {list-style-type: none;
+}
+ul.a li img{
+	height: 70px;
+	margin-top: 30px;
+}
 a:hover{
 	color: white;
 	text-decoration: none;
@@ -58,9 +71,9 @@ p{
 	background-color: #222222;
 }
 .footerauth{
-	width: 90%;
+	max-width: 100%;
 	background-color: #222222;
-	margin-top: 50px;
+	margin-top: 20px;
 	color: white;
 }
 .footer ul li{
@@ -89,10 +102,15 @@ margin:0 auto;
         width: 100%;
        }
 #mapdetail {
-		height: 280px;
-		width: 200px;
+		height: 300px;
+		width: 100%;
 }
-
+.imgeff{
+	position: 0 -1000px;
+}
+.coba{
+	margin-left: 120px;
+}
 
 
 
