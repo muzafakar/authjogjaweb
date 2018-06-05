@@ -114,7 +114,8 @@ app.config(function($routeProvider) {
         templateUrl : "pine.htm"
     })
     .when("/event", {
-        templateUrl : "event.htm"
+        templateUrl : "event.htm",
+        controller  : "eventCtrl"
     })
     .when("/foods", {
         templateUrl : "foods.htm",
@@ -137,6 +138,13 @@ $http.get('json/beach.json')
           $scope.pantai = result.data.beach;                
         });
 });
+      app.controller("eventCtrl", function($scope, $http) {
+$http.get('json/event.json')
+       .then(function(result){
+          $scope.acara = result.data.event;                
+        });
+});
+
 </script>
 <!-- end angular rout -->	
 	<!-- ANGULAR ROUTING -->

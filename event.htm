@@ -1,52 +1,36 @@
 
-<div class="row" style="padding-top: 20px;text-align: center;">
-	<div class="col-4">
-		<img src="img/slide1.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
+<section ng-repeat="z in acara"  ng-controller="eventCtrl">
+	<section class="margin-content" ng-if ="$even">
+<div class="row" >
+	<div class="col-6" >
+		<p style="text-align: center;"><strong>{{z.nama}}</strong></p>
+		<p>{{z.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>:{{z.alamat}}</p>
+		<p><strong>CP</strong> : {{z.telp}}</p>
 	</div>
-	<div class="col-4">
-		<img src="img/slide2.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
+	<div class="col-6 gambar-isi">
+		<img ng-src="{{z.image}}" class="img-thumbnail" style="height: 350px;border-radius: 15px;">
 	</div>
-	<div class="col-4">
-		<img src="img/slide3.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
+	
 	</div>
+</section>
+<!-- even -->
+<!-- odd -->
+<section style="background-color: lightgrey;border-radius: 15px;">
+<section class="margin-content" ng-if ="$odd">
+<div class="row" >
+	<div class="col-6 margin-food">
+		<img class="gambar" ng-src="{{z.image}}" style="height: 350px;border-radius: 15px;">
+	</div>
+	<div class="col-6" style="padding-top: 40px; padding-right: 50px; padding-left: 50px; padding-bottom: 40px;">
+		<p  style="text-align: center;"><strong>{{z.nama}}</strong></p>
+		<p>{{z.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>:{{z.alamat}}</p>
+		<p><strong>Tiket</strong> : {{z.telp}}</p>
+	</div>
+	
 </div>
-<div class="row" style="padding-top: 20px;text-align: center;">
-	<div class="col-4">
-		<img src="img/slide1.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-	<div class="col-4">
-		<img src="img/slide2.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-	<div class="col-4">
-		<img src="img/slide3.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-</div>
-<div class="row" style="padding-top: 20px;text-align: center;">
-	<div class="col-4">
-		<img src="img/slide1.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-	<div class="col-4">
-		<img src="img/slide2.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-	<div class="col-4">
-		<img src="img/slide3.jpg" style="width: 400px;height: 300px; border-radius: 15px;">
-		<p>Merapi Mountain is one active mountain in indonesia . . .</p>
-		<h1><a class="btn btn-primary" href="https://facebook.com" role="button">Read More</a></h1>
-	</div>
-</div>
+</section>
+</section>
+<!-- odd -->
+</section>
