@@ -1,4 +1,39 @@
+<script>
+$('document').ready(function(){
+  var num = 0;
+  $('#prev').css({"opacity":"0", "pointer-events" :"none"});
+  $('#nxt').click(function(){
+    num++;
+        $('#show'+(num)).removeClass ('aboutactive');
+        $('#show'+(num+1)).addClass(' aboutactive');
+        $('#prev').css({"opacity":"1", "pointer-events" :"auto"});
+        if(num == 4)
+        {
+          $('#nxt').css({"opacity":"0", "pointer-events" :"none"});
+        }
 
+
+  });
+  
+  $('#prev').click(function(){
+      $('#nxt').css({"opacity":"1", "pointer-events" :"auto"});
+      num--;
+      if(num == 0)
+      {
+        $('#prev').css({"opacity":"0", "pointer-events" :"none"});
+      }
+          $('#show'+(num+2)).removeClass ('aboutactive');
+          $('#show'+(num+1)).addClass(' aboutactive');
+          
+      });
+
+  
+
+
+
+
+});
+</script>
 
 
 <div class="row">
@@ -25,7 +60,7 @@
 						<div class="row">
 							<div class="col-4">
 								<div class="about-profile-picture-person">
-									<img src="img/about_us/team_logos.png" id="ppl1">
+									<img src="img/about_us/haykal.jpeg" id="ppl1">
 								</div>
 							</div>
 							<div class="col-8">
@@ -34,8 +69,9 @@
 										<h1>Hi, I'm <span class="color1">Andre Haykal Rachman</span></h1>
 										<h2>Web Designer and Web Programmer</h2>
 										<h2>16.11.0466</h2>
-										<h2>+62 812 8787 7573</h2>
+										<h2 class="fa fa-phone-square">+62 812 8787 7573</h2>
 									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -47,15 +83,15 @@
 						<div class="row">
 							<div class="col-4">
 								<div class="about-profile-picture-person">
-									<img src="img/about_us/team_logos.png" id="ppl1">
+									<img src="img/about_us/reang.png" id="ppl1">
 								</div>
 							</div>
 							<div class="col-8">
 								<div class="dataPeople">
 									<div class="people">
-										<h1>Hi, I'm <span class="color1">Reang</span></h1>
+										<h1>Hi, I'm <span class="color1">Reang Aji Wiranto</span></h1>
 										<h2>Web Designer and Web Programmer</h2>
-										<h2>16.11.0466</h2>
+										<h2>16.11.0468</h2>
 										<h2>+62 812 8787 7573</h2>
 									</div>
 								</div>
@@ -69,7 +105,7 @@
 						<div class="row">
 							<div class="col-4">
 								<div class="about-profile-picture-person">
-									<img src="img/about_us/team_logos.png" id="ppl1">
+									<img src="img/about_us/zulfakar.png" id="ppl1">
 								</div>
 							</div>
 							<div class="col-8">
@@ -77,7 +113,7 @@
 									<div class="people">
 										<h1>Hi, I'm <span class="color1">Muhammad Zulfakar</span></h1>
 										<h2>Web Designer and Web Programmer</h2>
-										<h2>16.11.0466</h2>
+										<h2>16.11.0500</h2>
 										<h2>+62 812 8787 7573</h2>
 									</div>
 								</div>
@@ -92,7 +128,7 @@
 						<div class="row">
 							<div class="col-4">
 								<div class="about-profile-picture-person">
-									<img src="img/about_us/team_logos.png" id="ppl1">
+									<img src="img/about_us/yusril.png" id="ppl1">
 								</div>
 							</div>
 							<div class="col-8">
@@ -100,7 +136,7 @@
 									<div class="people">
 										<h1>Hi, I'm <span class="color1">Yusril</span></h1>
 										<h2>Web Designer and Web Programmer</h2>
-										<h2>16.11.0466</h2>
+										<h2>16.11.04503</h2>
 										<h2>+62 812 8787 7573</h2>
 									</div>
 								</div>

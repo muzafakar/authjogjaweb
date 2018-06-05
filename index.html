@@ -9,13 +9,13 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <!-- Akhir Bootstrap -->
   <!-- Font Awesome -->
-  <link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/main-style.css">
   <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
   <link rel="stylesheet" href="css/style_detail.css">
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
    <link rel="stylesheet" type="text/css" href="css/ihover.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
    <!-- Angular -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
@@ -248,42 +248,7 @@ $http.get('https://api.myjson.com/bins/o99t6')
 
 
 <!-- ini script buat control next and previous about us -->
-<script>
-$('document').ready(function(){
-  var num = 0;
-  $('#prev').css({"opacity":"0", "pointer-events" :"none"});
-  $('#nxt').click(function(){
-    num++;
-        $('#show'+(num)).removeClass ('aboutactive');
-        $('#show'+(num+1)).addClass(' aboutactive');
-        $('#prev').css({"opacity":"1", "pointer-events" :"auto"});
-        if(num == 4)
-        {
-          $('#nxt').css({"opacity":"0", "pointer-events" :"none"});
-        }
 
-
-  });
-  
-  $('#prev').click(function(){
-      $('#nxt').css({"opacity":"1", "pointer-events" :"auto"});
-      num--;
-      if(num == 0)
-      {
-        $('#prev').css({"opacity":"0", "pointer-events" :"none"});
-      }
-          $('#show'+(num+2)).removeClass ('aboutactive');
-          $('#show'+(num+1)).addClass(' aboutactive');
-          
-      });
-
-  
-
-
-
-
-});
-</script>
 
 
 =======
