@@ -1,0 +1,36 @@
+
+<section ng-repeat="y in pantai"  ng-controller="beachCtrl">
+	<section class="margin-content" ng-if ="$even">
+<div class="row" >
+	<div class="col-6" >
+		<p style="text-align: center;"><strong>{{y.nama}}</strong></p>
+		<p>{{y.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>:{{y.alamat}}</p>
+		<p><strong>Tiket</strong> : {{y.tiket}}</p>
+	</div>
+	<div class="col-6 gambar-isi">
+		<img ng-src="{{y.image}}" class="img-thumbnail" style="height: 350px;">
+	</div>
+	
+	</div>
+</section>
+<!-- even -->
+<!-- odd -->
+<section style="background-color: lightgrey;border-radius: 15px;">
+<section class="margin-content" ng-if ="$odd">
+<div class="row" >
+	<div class="col-6 margin-food">
+		<img class="gambar" ng-src="{{y.image}}" style="height: 350px;">
+	</div>
+	<div class="col-6" style="padding-top: 40px; padding-right: 50px; padding-left: 50px; padding-bottom: 40px;">
+		<p  style="text-align: center;"><strong>{{y.nama}}</strong></p>
+		<p>{{y.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>:{{y.alamat}}</p>
+		<p><strong>Tiket</strong> : {{y.tiket}}</p>
+	</div>
+	
+</div>
+</section>
+</section>
+<!-- odd -->
+</section>

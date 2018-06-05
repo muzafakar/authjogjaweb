@@ -1,0 +1,37 @@
+
+<section ng-repeat="x in datas" ng-controller="foodsCtrl">
+	<section class="margin-content" ng-if ="$even">
+<div class="row" >
+	<div class="col-6" >
+		<p style="text-align: center;"><strong>{{x.nama}}</strong></p>
+		<p>{{x.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>	:{{x.alamat}}</p>
+		<p><strong>Telepon</strong> : {{x.telp}}</p>
+	</div>
+	<div class="col-6 gambar-isi">
+		<img ng-src="{{x.image}}" class="img-thumbnail" style="height: 350px;">
+	</div>
+	
+	</div>
+</section>
+<!-- even -->
+<!-- odd -->
+<section style="background-color: lightgrey;border-radius: 15px;">
+<section class="margin-content" ng-if ="$odd">
+<div class="row" >
+	<div class="col-6 margin-food">
+		<img class="gambar" ng-src="{{x.image}}" style="height: 350px;">
+	</div>
+	<div class="col-6" style="padding-top: 40px; padding-right: 50px; padding-left: 50px; padding-bottom: 40px;">
+		<p  style="text-align: center;"><strong>{{x.nama}}</strong></p>
+		<p>{{x.deskripsi_ID}}</p>
+		<p><strong>Alamat</strong>	:{{x.alamat}}</p>
+		<p><strong>Telepon</strong> : {{x.telp}}</p>
+	</div>
+	
+</div>
+</section>
+</section>
+<!-- odd -->
+</section>
+
