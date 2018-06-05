@@ -54,6 +54,12 @@ p{
 	color: white;
 	background-color: #222222;
 }
+.footerauth{
+	width: 90%;
+	background-color: #222222;
+	margin-top: 50px;
+	color: white;
+}
 .footer ul li{
 	display: inline;
 	list-style-type: circle;
@@ -77,6 +83,11 @@ p{
         height: 400px;
         width: 100%;
        }
+#mapdetail {
+		height: 280px;
+		width: 540px;
+		border-radius: 12px;
+}
 
 
 
