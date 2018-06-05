@@ -127,19 +127,19 @@ app.config(function($routeProvider) {
  });
     // controller
     app.controller("foodsCtrl", function($scope, $http) {
-$http.get('json/kuliner.json')
+$http.get('https://api.myjson.com/bins/o61aq')
        .then(function(result){
           $scope.datas = result.data.data;                
         });
 });
     app.controller("beachCtrl", function($scope, $http) {
-$http.get('json/beach.json')
+$http.get('https://api.myjson.com/bins/1d68pe')
        .then(function(result){
           $scope.pantai = result.data.beach;                
         });
 });
       app.controller("eventCtrl", function($scope, $http) {
-$http.get('json/event.json')
+$http.get('https://api.myjson.com/bins/ucxzm')
        .then(function(result){
           $scope.acara = result.data.event;                
         });
