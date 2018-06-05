@@ -1,11 +1,13 @@
 .merah{
 	background-color: black;
-	opacity: 0.6;
+	opacity: 0.8;
 }
 .navbar{
 }
 body{
 	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 .carousel .carousel-inner{
 	height: 650px;
@@ -40,6 +42,7 @@ a{
 }
 p{
 	text-align: justify-all;
+
 }
 #todo{
 	width: 100%;
@@ -73,8 +76,10 @@ p{
 .martop{
 	margin-top: 20px;
 }
-.gambar{
-	height: 300px;
+.gambar-isi{
+height: 350px;
+border-radius: 15px;
+margin:0 auto;
 }
 .odd{
 	background-color: lightgrey;
@@ -85,8 +90,7 @@ p{
        }
 #mapdetail {
 		height: 280px;
-		width: 540px;
-		border-radius: 12px;
+		width: 200px;
 }
 
 

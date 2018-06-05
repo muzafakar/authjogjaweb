@@ -1,12 +1,13 @@
 {
-  "beach" : [ {
+  "beach" : [
+    {
       "address" : "Kabupaten Gunung Kidul, Yogyakarta",
       "descEN" : "Indrayanti beach is one of the most famous beach row in mountain of kidul. Because this beach has access roads that are easy to reach and suitable as a tourist spot for all ages. This beach is located in the village sidoharjo tepus gunugkidul yogyakarta. This beach has white sand and has a long coastline.",
       "descID" : "Pantai indrayanti merupakan salah satu deretan pantai di gunung kidul yang paling terkenal. Karena pantai ini mempunyai akses jalan yang mudah di jangkau dan cocok sebagai tempat wisata untuk semua kalangan umur. pantai ini terletak di desa sidoharjo tepus gunugkidul yogyakarta. Pantai ini mempunyai pasir berwarna putih dan mempunyai garis pantai yang panjang.",
       "name" : "Indrayanti",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/pantai-indrayanti-gunung-kidul-yogyakarta.jpg"
     },
-   {
+    {
       "address" : "Sidoharjo Tepus, Sidoharjo, Tepus, Kabupaten Gunung Kidul",
       "descEN" : "The beach is hidden in a cluster of limestone mountains of Gunung Kidul offering beautiful scenery. You do not have to be afraid of the current wave because here the water surface is very calm so it is suitable for tourism choice with children whether it's younger or ponakan.",
       "descID" : "Pantai yang tersembunyi di gugusan pegunungan kapur Gunung Kidul menawarkan pemandangan yang lur biasa indah. Kamu tak usah takut terbawa arus ombak karena disini permukaan airnya sangat tenang sekali sehingga sangat cocok untuk pilihan wisata bersama anak anak entah itu adik atau ponakan.",
@@ -20,7 +21,7 @@
       "name" : "Sepanjang",
       "thumbUrl" : "https://mytrip123.com/wp-content/uploads/2015/12/pantai-sepanjang-gunung-kidul-yogyakarta.jpg"
     },
-   {
+    {
       "address" : "Gunungkidul",
       "descEN" : "This siung beach is located in the village of Purwodadi tepus subdistrict, this beach is still classified as a beach that is rarely visited by tourists. The beach has a characteristic soft white sand and presents a typical rocky coral mountain scenery that combined with the swift waves, making this beach look perfect for your visit.",
       "descID" : "Pantai siung ini berlokasi di desa purwodadi kecamatan tepus, Pantai ini masih tergolong pantai yang jarang dikunjungi oleh wisatawan. Pantai tersebut mempunyai ciri khas pasir putih yang lembut dan menyuguhkan pemandangan batu karang khas gunung kidul yangberpadu dengan derasnya ombak, membuat pantai ini terlihat sempurna untuk anda kunjungi.",
@@ -36,21 +37,21 @@
     }
   ],
   "candi" : [
-     {
+    {
       "address" : "Kikis, Sambirejo, Prambanan, Sleman Regency, Special Region of Yogyakarta 55572",
       "descEN" : "Ijo Temple is a Hindu temple enshrining area. This temple is located four kilometers southeast of Candi Ratu Boko or us-about 18 kilometers east of Yogyakarta. It is called Ijo Temple because it is built on a hill known to Bukit Hijau or Gumuk Ijo around the 9th century.",
       "descID" : "Candi Ijo adalah sebuah kawasan percandian bercorak Hindu. Candi ini berada empat kilometer arah tenggara dari Candi Ratu Boko atau kita-kira 18 kilometer di sebelah timur Yogyakarta. Disebut Candi Ijo karena dibangun di sebuah bukit yang dikenal Bukit Hijau atau Gumuk Ijo sekitar abad ke-9.",
       "name" : "Candi Ijo",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/candi-ijo-jogjalungo-055bd306859b39702e07d6d5713949ad.jpg"
     },
-     {
+    {
       "address" : "Jl. Raya Yogya - Solo, Suryatmajan, Danurejan, Daerah Istimewa Yogyakarta",
       "descEN" : "Kalasan temple is located in Kalibening Village, Tirtamani, Sleman Regency. This Buddhist temple has a layer of temple cover called Bajralepa. Bajralepa is a kind of plaster in fine stone carvings. Detailed decoration Bajralepa is one of the characteristics Kalasan Temple, which is also found in Sari Temple.",
       "descID" : "Candi Kalasan terletak di Desa Kalibening, Tirtamani, Kabupaten Sleman. Candi umat Buddha ini memiliki lapisan penutup candi yang dinamakan Bajralepa. Bajralepa merupakan semacam plesteran di ukiran batu halus. Detil hiasan Bajralepa ini merupakan salah satu ciri Candi Kalasan, yang juga dijumpai pada Candi Sari.",
       "name" : "Candi Kalasan",
       "thumbUrl" : "https://cdn.idntimes.com/content-images/post/20170924/candi-kalasan-wisatajogjamurah-50fc036a99aee7513e8197e419bf24b9.jpg"
     },
-     {
+    {
       "address" : "Jalan Candi Sambisari, Purwomartani, Kalasan, Purwomartani, Kalasan, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55571",
       "descEN" : "Its name is similar to Sari temple, but Sambisari temple is a Hindu temple. This temple is located in Purwomartani, Kalasan, Sleman. You can see the relics of the ancient Mataram Kingdom of 50 × 48 meters.",
       "descID" : "Namanya memang mirip dengan candi Sari, namun candi Sambisari merupakan candi Hindu. Candi ini berada di Purwomartani, Kalasan, Sleman. Kamu bisa melihat peninggalan Kerajaan Mataram Kuno seluas 50 × 48 meter. ",
@@ -94,7 +95,7 @@
       "name" : "Puncak Beici",
       "thumbUrl" : "https://wiratourjogja.com/wp-content/uploads/2017/09/puncak-Becici-1.jpg"
     },
-     {
+    {
       "address" : "Daerah Istimewa Yogyakarta",
       "descEN" : "Location of cliffs Watu Mabur is not far from the Forest Pus Mangunan. If usually in the tourist destination of the hills you can only photograph in the view post, here You can also camping cheerfully with friends or your partner. Beautiful panorama and cool air temperature will make you feel at home long camping in this Watu Mabur Cliff.",
       "descID" : "Lokasi tebing Watu Mabur ini tak jauh dari Hutan Pinus Mangunan. Kalau biasanya di destinasi wisata perbukitan Kamu cuma bisa foto di gardu pandang, di sini Kamu bisa juga camping ceria sama teman atau pasanganmu. Panoramanya yang indah dan suhu udara yang sejuk akan membuat Kamu betah lama-lama camping di Tebing Watu Mabur ini.",
@@ -117,14 +118,14 @@
       "name" : "Grojogan Sewu",
       "thumbUrl" : "http://3.bp.blogspot.com/-mvDNXVN5TMY/UvzqOBc-wgI/AAAAAAAAALA/fsIyzLiN-Cs/s1600/IMG_5448.JPG"
     },
-	{
+    {
       "address" : "Dusun Gunungkelir, Desa Jatimulyo, Kecamatan Kulonprogo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEN" : "Koka Soka Waterfall is a waterfall that has unique characteristics and makes it different from other waterfalls in Yogyakarta. The clear water combined with the yellowish waterfall rocks. There are many natural pools along the Kembang Soka river of Yogyakarta, and the natural pond water is Green Tosca. In addition, although the rocks and waterfall base of the river is yellowish, the cliffs that are on the side are maroon.",
       "descID" : "Air terjun Kembang Soka merupakan sebuah air terjun yang mempunyai ciri khas yang unik dan membuatnya berbeda dari air terjun lainnya di Yogyakarta. Airnya yang jernih berpadu dengan batuan air terjunnya berwarna kekuningan. Terdapat banyak kolam alami di sepanjang aliran sungai Kembang Soka Yogyakarta, dan air kolam alaminya berwarna Hijau Tosca. Selain itu walau batuan air terjun dan dasar sungainya berwarna kekuningan, Tebing yang berada disisinya berwarna merah marun.",
       "name" : "Kembang Soka",
       "thumbUrl" : "https://wiratourjogja.com/wp-content/uploads/2018/04/Air-Terjun-Kembang-Soka-Gunungkelir-Girimulyo-Kulonprogo-Yogyakarta-Foto-by-CV-Wira-Tour-Jogjakarta.jpg"
     },
-     {
+    {
       "address" : "Dusun Jonggrangan, Desa Jatimulyo, Kec. Girimulyo, Kab. Kulon Progo, Daerah Istimewa Yogyakarta – Indonesia",
       "descEN" : "Menoreh Mountains are endless for exploration. And one of them that is worth visiting Dolaners is Setawing Waterfall located in Jatimulyo Village, Kulon Progo Regency, Special Region of Yogyakarta. The beauty of this waterfall will be more fascinating during the rainy season. This is due to this seasonal waterfall occurs during the rainy season alone, while in the dry season waterfall is not a drop of its existence.",
       "descID" : "Pegunungan Menoreh memang tak ada habisnya untuk di eksplorasi. Dan salah satunya yang patut Dolaners kunjungi adalah Air Terjun Setawing yang terletak di Desa Jatimulyo, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta. Keindahan air terjun ini akan semakin mempesona saat musim penghujan. Hal ini disebabkan karena air terjun ini terjadi musiman yakni saat musim penghujan saja, sedangkan pada musim kemarau air terjun ini tak setetespun keberadaannya.",

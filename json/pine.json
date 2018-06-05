@@ -1,0 +1,50 @@
+{
+  "pine": [
+	  {
+        "image"  : "https://explorewisata.com/wp-content/uploads/2017/02/spot-foto-tangan-di-hutan-pinus-pengger.jpg",
+        "alamat" : "Jl. Dlingo-Patuk, Pantirejo, Terong, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783 ",
+        "longitude" : "-7.871075",
+		"latitude" : "110.4575467",
+        "deskripsi_EN" : "The pine forest area of Dlingo Bantul is now a favorite destination for tourists visiting Yogyakarta, one of which is Pengus Pine Forest, formerly known only as the usual dark, silent and creepy pine forest, now transformed into one of the best Pine Forest tourism destinations in the Dlingo region Bantul Yogyakarta. Not only during the day, tourists visit this pine forest but at night there are still many tourists who visit this Pengger Forest Pusher. The main reason tourists still come at night is because of its location that is in the hills, from here you can see the beautiful view of Yogyakarta city lights.",
+        "deskripsi_ID" : "null",
+		"tiket" : "2500",
+        "nama" : "Hutan Pinus Pengger",
+        "telp" : "null"
+      },
+      {
+        "image"  : "https://1.bp.blogspot.com/-LQz2s9tFT4w/V8WmTUHeS5I/AAAAAAAAAJg/O4jEkHhITP0Zge6nt2uWJJYOq41tc8acQCPcB/s1600/13715287_1018777594887158_543551045_n.jpg",
+        "alamat" : "Gunungcilik RT. 07 / RW. 02, Muntuk, Dlingo, Gn. Cilik, Muntuk, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783",
+        "longitude" : "-7.8685012",
+		"latitude" : "110.3819408",
+        "deskripsi_EN" : "Becici pine forest is one of the Natural Tourism Destination area in D.I Yogyakarta located in the Village of Cilik Mountain, Muntuk Village, Dlingo District, Bantul District, Daerah IstimewaYogyakarta, and under the auspices of Forestry Service of RPH Mangunan, KPH Yogyakarta. The journey to Peking Forest Nature Peak BECICI is very easy because it can be accessed and skipped through various directions, from the north side through the junction Patuk Jl jogja-wonosari keselatan 7 km. or passing Imogiri up towards the village Mangunan take the pine forest through two points the location of pine sari and pine tourism continue straight 2km.bisa also from the direction of pleret take the direction segoroyoso further up Terong Village take the right 2km, but it is recommended for users of cars and buses to pass the northern route or Jl jogja-wonosari because the road is more gentle.",
+        "deskripsi_ID" : "null",
+        "nama" : "Hutan Pinus Becici",
+		"tiket" : "2500",
+        "telp" : "null"
+      },
+	  {
+        "image"  : "http://wisatabaru.com/wp-content/uploads/2017/01/gardu-pandang-pinus-asri.jpg",
+        "alamat" : "Jalan Hutan Pinus Nganjir, Mangunan, Dlingo, Sukorame, Mangunan, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783",
+        "longitude" : "-7.9246016",
+		"latitude" : "110.4330287",
+        "deskripsi_EN" : "Dlingo is a haven of selfie photo hunters. Because in every corner and Dlingo curve there is always an interesting spot that affection if missed. If some time ago hits the bottomless with Spot Boats on the edge of the cliff and Hill Mojo dnegan bird's nest spot, this time there is one more compulsory viewing post to visit. Is the Asri pine view point that just opened this January. The location of this view point of Pinus Asri is located in the pine forest area of Asri Karangasem. The famous Pine Forest with its natural stage.",
+        "deskripsi_ID" : "null",
+        "nama" : "Hutan Pinus Asri",
+		"tiket" : "2000",
+        "telp" : "null"
+      },
+
+	  {
+        "image"  : "http://1736454576.rsc.cdn77.org/wp-content/uploads/2017/02/hutan-pinus-imogiri.3.jpg",
+        "alamat" : "Sukorame, Mangunan, Dlingo, Bantul, Daerah Istimewa Yogyakarta 55783",
+        "longitude" : "-7.9238906",
+		"latitude" : "110.4303832",
+        "deskripsi_EN" : "Pine Forest Mangunan is a natural tourist attraction located in the hills Bantul east side. At first this pine forest is only a forest area managed by Perhutani. But its existence began to be known since popping about the photographs of the beauty of the pine forest. Rows of pine trees that grow neatly make visitors interested to visit it and slowly opened into a tourist area by the surrounding community.",
+        "deskripsi_ID" : "null",
+        "nama" : "Hutan Pinus Mangunan",
+		"tiket" : "2000",
+        "telp" : "null"
+      }
+	
+]
+}

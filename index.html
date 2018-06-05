@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Authentic Jogja</title>
-	<!-- Bootstarp -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-	<!-- Akhir Bootstrap -->
+  <title>Authentic Jogja</title>
+  <!-- Bootstarp -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!-- Akhir Bootstrap -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- Font Awesome -->
-	<link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+  <link rel="stylesheet" type="text/css" href="css/main-style.css">
   <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
   <link rel="stylesheet" href="css/style_detail.css">
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
@@ -20,20 +20,20 @@
    <!-- Angular -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-	<script type="text/javascript">
-		$(window).on('scroll',function(){
-			if($(window).scrollTop())
-			{
-				$('nav').addClass('merah');
-			}
-			else{
-				$('nav').removeClass('merah');
-			}
-		})
-	</script> 
+  <script type="text/javascript">
+    $(window).on('scroll',function(){
+      if($(window).scrollTop())
+      {
+        $('nav').addClass('merah');
+      }
+      else{
+        $('nav').removeClass('merah');
+      }
+    })
+  </script> 
 </head>
 <body ng-app="myApp" class="lebar">
-		 <!-- Navbar -->
+     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg text-white fixed-top" >
  <img src="img/auth.png" class="logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,11 +71,11 @@
 </nav>
 <!-- Akhir Navbar -->
 <div class="container-fluid" >
-	<!-- Slider -->
-	<div class="row">
-		<div class="col-12">
+  <!-- Slider -->
+  <div class="row">
+    <div class="col-12">
 
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active">
 
@@ -89,10 +89,10 @@
     </div>
   </div>
 </div>
-		</div>
-	</div>
-	<!-- Akhir Slider -->
-  
+    </div>
+  </div>
+  <!-- Akhir Slider -->
+
 <!-- angular routing -->
 <script>
 var app = angular.module("myApp", ["ngRoute"]);
@@ -102,20 +102,24 @@ app.config(function($routeProvider) {
         templateUrl : "home.htm"
     })
     .when("/waterfall", {
-        templateUrl : "waterfall.htm"
+        templateUrl : "waterfall.htm",
+        controller  : "waterfallCtrl"
     })
     .when("/temple", {
-        templateUrl : "temple.htm"
+        templateUrl : "temple.htm",
+        controller  : "templeCtrl"
     })
     .when("/beach", {
         templateUrl : "beach.htm",
         controller  : "beachCtrl"
     })
     .when("/hill", {
-        templateUrl : "hill.htm"
+        templateUrl : "hill.htm",
+        controller  : "hillCtrl"
     })
     .when("/pine", {
-        templateUrl : "pine.htm"
+        templateUrl : "pine.htm",
+        controller  : "pineCtrl"
     })
     .when("/event", {
         templateUrl : "event.htm",
@@ -126,63 +130,85 @@ app.config(function($routeProvider) {
         controller  : "foodsCtrl"
     })
     .when("/about", {
-        templateUrl : "about.htm",
-        
+        templateUrl : "about.htm"
     });
  });
-    // controller
+    // controller foods 
     app.controller("foodsCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/o61aq')
        .then(function(result){
           $scope.datas = result.data.data;                
         });
 });
+    //controller beach
     app.controller("beachCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/1d68pe')
        .then(function(result){
           $scope.pantai = result.data.beach;                
         });
 });
+    // controller event
       app.controller("eventCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/ucxzm')
        .then(function(result){
           $scope.acara = result.data.event;                
         });
 });
-
-
-
-
-      
-
+          // controller event
+      app.controller("pineCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/11rdt6')
+       .then(function(result){
+          $scope.pines = result.data.pine;                
+        });
+});
+          // controller temples
+      app.controller("templeCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.temples = result.data.candi;                
+        });
+});
+          app.controller("hillCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.hills = result.data.hill;                
+        });
+});
+              app.controller("waterfallCtrl", function($scope, $http) {
+$http.get('https://api.myjson.com/bins/o99t6')
+       .then(function(result){
+          $scope.waterfalls = result.data.waterfall;                
+        });
+     });
 </script>
-<!-- end angular rout -->	
-	<!-- ANGULAR ROUTING -->
-	<ng-view></ng-view>
-	<!-- END ROUTING -->
+<!-- end angular rout --> 
+  <!-- ANGULAR ROUTING -->
+  <ng-view></ng-view>
+  <!-- END ROUTING -->
 
 <!-- Footer -->
 <section class="footer">
 <div class="row" style="border-bottom: 1px solid #2F2F2F; padding-bottom: 20px;">
-	<div class="col-3 martop"  style="margin-left: 50px;">
-		<h3><b>About Jogja</b></h3>
-		<p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
-		<img src="img/trip.png" style="max-width: 100%;height: auto;">
-	</div>
+  <div class="col-3 martop"  style="margin-left: 50px;">
+    <h3><b>About Jogja</b></h3>
+    <p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
+    <img src="img/trip.png" style="max-width: 100%;height: auto;">
+  </div>
 
-<div class="col-3 martop" style="margin-left: 750px">
+<div class="col-3 martop" style="float: right;">
   <h3><b>Our Office</b></h3>
           <div id="mapdetail"></div>
           <script>
             function initMap() {
               var uluru = {lat: -7.753830, lng: 110.397694};
               var map = new google.maps.Map(document.getElementById('mapdetail'), {
-                zoom: 15,
+                zoom: 17,
                 center: uluru
               });
               var marker = new google.maps.Marker({
                 position: uluru,
                 map: map
+    
               });
             }
           </script>
@@ -192,10 +218,10 @@ $http.get('https://api.myjson.com/bins/ucxzm')
 </div>
 
 <div class="footerauth">
-	<div class="row">
-		<div class="col-12 text-center">
-			<p>2018 Authentic Jogja - All Rights Reserved </p>
-		</div>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p>2018 Authentic Jogja - All Rights Reserved </p>
+    </div>
 </div>
 </section>
 
@@ -213,4 +239,4 @@ $http.get('json/kuliner.json')
 </script> -->
 </div>
 </body>
-</html>
+</html>       
