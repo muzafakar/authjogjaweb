@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 	<title>Authentic Jogja</title>
 	<!-- Bootstarp -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -10,8 +11,20 @@
 	<!-- Akhir Bootstrap -->
 	<!-- Font Awesome -->
 	<link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
+=======
+  <title>Authentic Jogja</title>
+  <!-- Bootstarp -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!-- Akhir Bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="font-awesome/web-fonts-with-css/css/fontawesome-all.css">
+>>>>>>> 5c2f17f2eebd2025e79c4cf26e782066dfd5f6bb
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="css/main-style.css">
+  <link rel="stylesheet" type="text/css" href="css/main-style.css">
   <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/2.1.0/animate.min.css">
   <link rel="stylesheet" href="css/style_detail.css">
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
@@ -19,21 +32,26 @@
    <!-- Angular -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-	<script type="text/javascript">
-		$(window).on('scroll',function(){
-			if($(window).scrollTop())
-			{
-				$('nav').addClass('merah');
-			}
-			else{
-				$('nav').removeClass('merah');
-			}
-		})
-	</script> 
+  <script type="text/javascript">
+    $(window).on('scroll',function(){
+      if($(window).scrollTop())
+      {
+        $('nav').addClass('merah');
+      }
+      else{
+        $('nav').removeClass('merah');
+      }
+    })
+  </script> 
 </head>
 <body ng-app="myApp" class="lebar">
+<<<<<<< HEAD
 		 <!-- Navbar -->
     <nav class="navbar navbar-expand-lg text-white fixed-top" style="width: 100%" >
+=======
+     <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg text-white fixed-top" >
+>>>>>>> 5c2f17f2eebd2025e79c4cf26e782066dfd5f6bb
  <img src="img/auth.png" class="logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -70,11 +88,11 @@
 </nav>
 <!-- Akhir Navbar -->
 <div class="container-fluid" >
-	<!-- Slider -->
-	<div class="row">
-		<div class="col-12">
+  <!-- Slider -->
+  <div class="row">
+    <div class="col-12">
 
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
   <div class="carousel-inner">
     <div class="carousel-item active">
 
@@ -88,9 +106,9 @@
     </div>
   </div>
 </div>
-		</div>
-	</div>
-	<!-- Akhir Slider -->
+    </div>
+  </div>
+  <!-- Akhir Slider -->
 
 <!-- angular routing -->
 <script>
@@ -180,6 +198,7 @@ $http.get('https://api.myjson.com/bins/o99t6')
           $scope.waterfalls = result.data.waterfall;                
         });
      });
+<<<<<<< HEAD
   app.controller("homeCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/o99t6')
        .then(function(result){
@@ -187,14 +206,17 @@ $http.get('https://api.myjson.com/bins/o99t6')
         });
      });              
 
+=======
+>>>>>>> 5c2f17f2eebd2025e79c4cf26e782066dfd5f6bb
 </script>
-<!-- end angular rout -->	
-	<!-- ANGULAR ROUTING -->
-	<ng-view></ng-view>
-	<!-- END ROUTING -->
+<!-- end angular rout --> 
+  <!-- ANGULAR ROUTING -->
+  <ng-view></ng-view>
+  <!-- END ROUTING -->
 
 <!-- Footer -->
 <section class="footer">
+<<<<<<< HEAD
 <div class="row" style="border-bottom: 1px solid #2F2F2F; margin-left: 10px;">
 	<div class="col-3 martop"  >
 		<h3><b>About Jogja</b></h3>
@@ -210,6 +232,16 @@ $http.get('https://api.myjson.com/bins/o99t6')
 </ul>
 </div>
 <div class="col-3 martop"">
+=======
+<div class="row" style="border-bottom: 1px solid #2F2F2F; padding-bottom: 20px;">
+  <div class="col-3 martop"  style="margin-left: 50px;">
+    <h3><b>About Jogja</b></h3>
+    <p>Authentic Jogja is your comprehensive resource for Yogyakarta and tours in Java. We provide tour packages about things to see and do, hotels and all the information you need to travel to Yogyakarta and surrounding areas. </p>
+    <img src="img/trip.png" style="max-width: 100%;height: auto;">
+  </div>
+
+<div class="col-3 martop" style="float: right;">
+>>>>>>> 5c2f17f2eebd2025e79c4cf26e782066dfd5f6bb
   <h3><b>Our Office</b></h3>
           <div id="mapdetail"></div>
           <script>
@@ -239,11 +271,19 @@ $http.get('https://api.myjson.com/bins/o99t6')
 </ul>
 </div>
 
+<<<<<<< HEAD
 </div>
 	<div class="row footerauth">
 		<div class="col-12 text-center">
 			<p>2018 Authentic Jogja - All Rights Reserved </p>
 		</div>
+=======
+<div class="footerauth">
+  <div class="row">
+    <div class="col-12 text-center">
+      <p>2018 Authentic Jogja - All Rights Reserved </p>
+    </div>
+>>>>>>> 5c2f17f2eebd2025e79c4cf26e782066dfd5f6bb
 </div>
 
 </section>
@@ -268,4 +308,4 @@ $http.get('json/kuliner.json')
 </script>
 </div>
 </body>
-</html>
+</html>       

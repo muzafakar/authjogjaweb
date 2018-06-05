@@ -1,0 +1,31 @@
+{
+  "data": [
+      {
+        "nama" : "Andre Haykal Rachman",
+        "nim" : "16.11.0466",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "0",
+      },
+
+      {
+        "nama" : "Reang Aji Wiranto",
+        "nim" : "16.11.0467",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "1",
+      },
+
+      {
+        "nama" : "Muhammad Zulfakar",
+        "nim" : "16.11.0500",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "2",
+      },
+
+      {
+        "nama" : "Yusril",
+        "nim" : "16.11.0513",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "3",
+      }
+]
+}
