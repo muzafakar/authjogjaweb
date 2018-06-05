@@ -149,13 +149,14 @@ p{
   	-moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
   	box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
   	border-bottom: 15px solid #f4f4f4;
+  	opacity: 0;
 }
 
 @media (min-width:992px) {
   .about-body-datapeople {
     position: absolute;
     margin-top: 30px;
-    left: 25%;
+    left: 27%;
     height: 400px;
     width: 50%;
     padding: 30px;
@@ -184,6 +185,7 @@ p{
   	-moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
   	box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
   	border-bottom: 15px solid #f4f4f4;
+  	opacity: 0;
 }
 
 @media (min-width:992px) {
@@ -201,6 +203,11 @@ p{
   .about-body-datateam {
     margin-top: 70px;
   }
+}
+
+.active
+{
+	opacity: 1!important;
 }
 
 /* About and its data */
@@ -224,6 +231,29 @@ p{
 	-moz-transition : all 0.6s ease-in-out;
 	-webkit-transition : all 0.6s ease-in-out;
 	position: absolute;
+}
+
+.about-profile-picture-person
+{
+	width: 250px;
+	height: 330px;
+	position: relative;
+	overflow: hidden;
+}
+
+.about-profile-picture-person img
+{
+	margin-top : 30px;
+	width: 100%;
+	border-radius: 100%;
+	-moz-border-radius : 100%;
+	-webkit-border-radius : 100%;
+	border: 8px solid #ddd;
+	transition: all 0.6s ease-in-out;
+	-moz-transition : all 0.6s ease-in-out;
+	-webkit-transition : all 0.6s ease-in-out;
+	position: absolute;
+	
 }
 
 /* 2. data*/

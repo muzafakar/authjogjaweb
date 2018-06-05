@@ -1,14 +1,31 @@
 {
   "data": [
-  {
-        "image"  : "https://media.foody.id/res/g7/69486/prof/s576x330/foody-mobile-gudeg-yu-narni-di-jo-311-636076318948483128.jpg",
-        "alamat" : "Jalan Pakuningratan ( Lor tugu) Jetis, Yogyakarta, 55233",
-        "coordinate" : "null",
-        "deskripsi_EN" : "null",
-        "deskripsi_ID" : "Warung ini sudah ada sejak 3 generasi, mulai dari mbok ginuk sendiri lalu putranya dan sekarang cucunya yang meneruskan usaha tersebut.Warung mbok Ginuk terbilang kecil dipinggir jalan, beda dengan warung gudeg lainnya, jadi jika ingin berkunjung kesana, diusahakan lebih teliti karena bisa jadi terlewat. Karena warungnya yang kecil, tidak disarankan mengajak keluarga makan ditempat.Harga Gudeg yang diawarkan cenderung pas untuk banyak kalangan, dengan rasa gudeg yang enak & gurih.Warung gudeg mbok ginuk buka setiap hari mulai pukul 09.00 – 15.00 WIB",
-        "nama" : "Gudeg Asli Mbok Ginuk",
-        "telp" : "81227235729",
-        "status_data" : "team"
+      {
+        "nama" : "Andre Haykal Rachman",
+        "nim" : "16.11.0466",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "0",
       },
+
+      {
+        "nama" : "Reang Aji Wiranto",
+        "nim" : "16.11.0467",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "1",
+      },
+
+      {
+        "nama" : "Muhammad Zulfakar",
+        "nim" : "16.11.0500",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "2",
+      },
+
+      {
+        "nama" : "Yusril",
+        "nim" : "16.11.0513",
+        "nohp" : "+62 812 8787 7573",
+        "index" : "3",
+      }
 ]
 }

@@ -1,8 +1,24 @@
+<script>
+$(document).ready(function(){
+    $('#nxt').click(function(){
+        $('.active').removeClass ('active');
+        $('.about-body-datapeople').addClass(' active');
+    });
+
+    $('#prev').click(function(){
+        $('.active').removeClass ('active');
+        $('.about-body-datateam').addClass(' active');
+    });
+});
+</script>
+
+
 <div class="row">
 	<div class="col">
+		
 		<div class="about-body">
 			<div class="about-container">
-				<div class="about-body-datateam">
+				<div class="about-body-datateam active" id="show1">
 					<div class="about-profile-picture">
 						<img src="img/about_us/team_logos.png" id="team_logos">
 					</div>
@@ -16,14 +32,42 @@
 						</div>
 					</div>
 				</div>
+				<div class="about-body-datapeople" id="show2">
+					<div class="col-12">
+						<div class="row">
+							<div class="col-4">
+								<div class="about-profile-picture-person">
+									<img src="img/about_us/team_logos.png" id="ppl1">
+								</div>
+							</div>
+							<div class="col-8">
+								<div class="dataPeople">
+									<div class="people">
+										<h1>Hi, I'm <span class="color1">Andre Haykal Rachman</span></h1>
+										<h2>Web Designer and Web Programmer</h2>
+										<h2>16.11.0466</h2>
+										<h2>+62 812 8787 7573</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+
 			</div>
 		</div>
 		<!-- button next and previous */ -->
 		<div class="container">
 			<div class="btnNextPrvs">
-				<a href="" class="previous round">&#8249;  </a>
-				<a href="" class="next round">&#8250;</a>
+				<a id="prev" href="" class="previous round ">&#8249;  </a>
+				<a id="nxt" href="" class="next round">&#8250;</a>
 			</div>	
 		</div>		
 	</div>
+
+
+
 </div>
