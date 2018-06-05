@@ -125,7 +125,7 @@ app.config(function($routeProvider) {
         templateUrl : "about.htm"
     });
  });
-    // controller
+    // controller dengan json online api.myjson.com
     app.controller("foodsCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/o61aq')
        .then(function(result){
