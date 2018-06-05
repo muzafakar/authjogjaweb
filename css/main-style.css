@@ -111,19 +111,18 @@ p{
   transition: all 0.3s ease-in-out;
   -moz-transition : all 0.3s ease-in-out;
   -webkit-transition : all 0.3s ease-in-out;
-  padding-bottom: 85px;
 }
 
 @media (min-width: 992px)
 {
 	.about-container
 	{
-		min-height: 520px;
+		min-height: 580px;
 	}
 }
 
 /*2. Body dari about us*/
-.about-body-data
+.about-body-datapeople
 {
 	width: 99%;
 	overflow-y: scroll;
@@ -142,7 +141,7 @@ p{
 }
 
 @media (min-width:992px) {
-  .about-body-data {
+  .about-body-datapeople {
     position: absolute;
     margin-top: 30px;
     left: 25%;
@@ -153,7 +152,42 @@ p{
 }
 
 @media (min-width: 1400px) {
-  .about-body-data {
+  .about-body-datapeople {
+    margin-top: 70px;
+  }
+}
+
+.about-body-datateam
+{
+	width: 99%;
+	overflow-y: scroll;
+	margin: 0 auto;
+	border-top: 6px solid #111;
+  	-webkit-transition: all 0.6s ease-in-out;
+  	-moz-transition: all 0.6s ease-in-out;
+  	transition: all 0.6s ease-in-out;
+  	border-radius: 5px;
+  	-moz-border-radius: 0px;
+  	-webkit-border-radius: 0px;
+  	-webkit-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	-moz-box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	box-shadow: 0px 6px 18px 0px rgba(0, 0, 0, 0.46);
+  	border-bottom: 15px solid #f4f4f4;
+}
+
+@media (min-width:992px) {
+  .about-body-datateam {
+    position: absolute;
+    margin-top: 30px;
+    left: 31%;
+    height: 460px;
+    width: 40%;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about-body-datateam {
     margin-top: 70px;
   }
 }
@@ -163,14 +197,13 @@ p{
 .about-profile-picture
 {
 	width: 250px;
-	height: 330px;
+	height: 270px;
 	position: relative;
-	overflow: hidden;
+	margin: 0 auto;
 }
 
 .about-profile-picture img
 {
-	margin-top: 40px;
 	width: 100%;
 	border-radius: 100%;
 	-moz-border-radius : 100%;
@@ -210,10 +243,43 @@ p{
 
 .color1
 {	
-  	color: #08aeac;
+  	color: red;
+}
+
+.dataTeam
+{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.team h1
+{
+	font-weight: bold;
+  	margin-top: 0;
+  	font-size: 36px;
+  	letter-spacing: -2px;
+  	margin-bottom: 8px;
+  	color: #021533;
+}
+
+.team h2
+{
+	margin-top: 0;
+  	font-size: 18px;
+  	font-weight: bold;
+  	margin-bottom: 8px;
+}
+
+.team-profile-text
+{
+	margin-bottom: 8px;
 }
 
 
+.team-profile-text p
+{
+	font-size: 15px;
+}
 
 
 /*Next and previous button*/
