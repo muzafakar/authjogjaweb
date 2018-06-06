@@ -1,0 +1,118 @@
+<div class="row">
+	<div class="col-12" style="text-align: center;">
+		<h1><i class="fas fa-images"></i>GALERY WEB</h1>
+	</div>
+</div>
+
+<!-- galery foods -->
+<div class="row">
+	<div class="col-12" style="text-align: center;">
+		<b>FOODS</b>
+	</div>
+</div>
+
+<section ng-controller="foodsCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;">	
+	<div class="col-4" ng-repeat="g in datas">
+		<img ng-src="{{g.image}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{g.nama}}</p>
+</div>
+</section>
+<!-- end galery -->
+<!-- galery Beach -->
+<div class="row">
+	<div class="col-12" style="text-align: center;background-color: azure;">
+		<b>BEACH</b>
+	</div>
+</div>
+
+<section ng-controller="beachCtrl" style="">
+<div class="row" style="padding-top: 20px;text-align: center;background-color: azure;">	
+	<div class="col-4" ng-repeat="a in pantai">
+		<img ng-src="{{a.image}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{a.nama}}</p>
+</div>
+</section>
+<!-- end galery beach -->
+<!-- galery event -->
+<div class="row">
+	<div class="col-12" style="text-align: center;">
+		<b>EVENT</b>
+	</div>
+</div>
+
+<section ng-controller="eventCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;">	
+	<div class="col-4" ng-repeat="b in acara">
+		<img ng-src="{{b.image}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{b.nama}}</p>
+</div>
+</section>
+<!-- end galery event -->
+<!-- galery pine -->
+<div class="row">
+	<div class="col-12" style="text-align: center;background-color: azure;">
+		<b>PINE</b>
+	</div>
+</div>
+
+<section ng-controller="pineCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;background-color: azure;">	
+	<div class="col-4" ng-repeat="c in pines">
+		<img ng-src="{{c.image}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{c.nama}}</p>
+</div>
+</section>
+<!-- end galery pine -->
+<!-- galery temple -->
+<div class="row">
+	<div class="col-12" style="text-align: center;">
+		<b>TEMPLE</b>
+	</div>
+</div>
+
+<section ng-controller="templeCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;">	
+	<div class="col-4" ng-repeat="d in temples">
+		<img ng-src="{{d.thumbUrl}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{d.name}}</p>
+</div>
+</section>
+<!-- end galery temple -->
+<!-- galery hill -->
+<div class="row">
+	<div class="col-12" style="text-align: center;">
+		<b>HILL</b>
+	</div>
+</div>
+
+<section ng-controller="hillCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;">	
+	<div class="col-4" ng-repeat="e in hills">
+		<img ng-src="{{e.thumbUrl}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{e.name}}</p>
+</div>
+</section>
+<!-- end galery hill -->
+<!-- galery waterfall -->
+<div class="row">
+	<div class="col-12" style="text-align: center;background-color: azure;">
+		<b>WATERFALL</b>
+	</div>
+</div>
+
+<section ng-controller="waterfallCtrl">
+<div class="row" style="padding-top: 20px;text-align: center;background-color: azure;">	
+	<div class="col-4" ng-repeat="f in waterfalls">
+		<img ng-src="{{f.thumbUrl}}" style="width: 400px;height: 300px; border-radius: 15px;">
+		<p>{{f.name}}</p>
+</div>
+</section>
+<!-- end galery waterfall -->
+
+
+
+
+
+
+

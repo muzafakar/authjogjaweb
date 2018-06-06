@@ -68,25 +68,28 @@ app.config(function($routeProvider) {
     })
     .when("/about", {
         templateUrl : "about.htm"
+    })
+    .when("/Galery", {
+        templateUrl : "Galery.htm"
     });
  });
     // controller foods 
     app.controller("foodsCtrl", function($scope, $http) {
-$http.get('https://api.myjson.com/bins/o61aq')
+$http.get('https://api.myjson.com/bins/18cvyq')
        .then(function(result){
           $scope.datas = result.data.data;                
         });
 });
     //controller beach
     app.controller("beachCtrl", function($scope, $http) {
-$http.get('https://api.myjson.com/bins/1d68pe')
+$http.get('https://api.myjson.com/bins/wid0y')
        .then(function(result){
           $scope.pantai = result.data.beach;                
         });
 });
     // controller event
       app.controller("eventCtrl", function($scope, $http) {
-$http.get('https://api.myjson.com/bins/ucxzm')
+$http.get('https://api.myjson.com/bins/ghsuq')
        .then(function(result){
           $scope.acara = result.data.event;                
         });
@@ -160,6 +163,9 @@ $http.get('https://api.myjson.com/bins/o99t6')
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#!about">About Us <span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#!Galery">Galery <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
