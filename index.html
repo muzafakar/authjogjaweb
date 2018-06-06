@@ -247,6 +247,7 @@ $http.get('https://api.myjson.com/bins/o99t6')
   </div>
   <!-- API CUACA -->
       <div class="col-3">
+        <h3><b>Yogyakarta Wheater</b></h3>
                <div class="row">
                 <div class="col-5">
                 <img src="{{info.current.condition.icon}}" style="height: 120px;">
@@ -260,26 +261,26 @@ $http.get('https://api.myjson.com/bins/o99t6')
             </div>
             <div class="row">
                 <div class="col-md-12">
-                <h5>Detail</h5>
+                <h5>Details</h5>
                     <table style="width: 100%">  
                     <tr>
-                        <td>Suhu Maks </td>  
+                        <td>Max Temperature </td>  
                         <td>{{info.forecast.forecastday[0].day.maxtemp_c}} &#x2103;</td>
                     </tr>
                     <tr>
-                        <td>Angin </td>  
+                        <td>Wind </td>  
                         <td>{{info.current.wind_mph}} mph</td>
                     </tr>
                     <tr>
-                        <td>Kelembapan </td>  
+                        <td>Humidity </td>  
                         <td>{{info.current.humidity}} %</td>
                     </tr>
                     <tr>
-                        <td>Tekanan </td>  
+                        <td>Preasure </td>  
                         <td>{{info.current.condition.preasure}} in</td>
                     </tr>    
                     <tr>
-                        <td>Matahari </td>  
+                        <td>Sun </td>  
                         <td>&uarr; {{info.forecast.forecastday[0].astro.sunrise}} &darr; {{info.forecast.forecastday[0].astro.sunset}}</td>
                     </tr>    
 
